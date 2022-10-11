@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet"href="resume.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+ <title>HARI HARAN-Resume</title>
+</head>
+<body>
+ <div class="head">
+ <div class="wrapper">
+ <div class="left">
+ <img class="profile" src="WhatsApp Image 2022-10-11 at 10.48.49.jpeg" alt="profile">
+ </div>
+ <div class="right">
+ <h1 class="name">HARI HARAN A P </h1>
+ <button class="cv"onclick="window.print()">Download CV</button>
+ <button class="hire" onclick="show()"><a href="#contact"> Hire me </a></button>
+ </div>
+ </div>
+ </div>
+ <div class="about">
+ <div class="about-wrapper">
+ <div class="about-left">
+ <h2 class="aboutme">About me</h1>
+ <p class="para">
+ Hello I'm HARI HARAN. I am a student currently persuing B.E computer science and Engineering at S.A.Engineering College. And I am passionate about CLOUD COMPUTING.
+ </p>
+ </div>
+
+ <div class="about-right">
+ <h2 class="education">Education</h2>
+ <p class="details">SSLC <b>2017<br>
+ VELAMMAL MATRICULATION Hr.Sec.School</b><br><br>
+ HSLC <b>2019<br>
+ VELAMMAL MATRICULATION Hr.Sec.School</b><br><br>
+ B.E - CSE <b>(2019 - 2023)<br>
+ S.A Engineering College</b>
+ </p>
+ </div>
+ </div>
+ </div>
+ <div class="skills">
+ <h2 class="skill-head"> Skills </h1>
+ <div class="skills-wrapper">
+ <div class="skills-left">
+ <label for="html"> HTML </label><br>
+ <progress id="html" value="82" max="100"></progress><br>
+
+ <label for="html"> CSS </label><br>
+ <progress id="html" value="45" max="100"></progress><br>
+
+ <label for="html"> Javascript </label><br>
+ <progress id="html" value="40" max="100"></progress> 
+ </div>
+
+ <div class="skills-right">
+ 
+
+ <label for="html"> SQL </label><br>
+ <progress id="html" value="30" max="100"></progress><br>
+
+<label for="html"> C Programming  </label><br>
+ <progress id="html" value="70" max="100"></progress><br>
+
+  <a href = "www.twitter.com" target = "blank"> 
+         <img src = "images.png" alt = "twitter" width="50"></a>  &nbsp &nbsp
+ <a href = "www.instagram.com" target = "_self"> 
+         <img src = "5ecec78673e4440004f09e77.png" alt = "instagram" width="40"/>&nbsp &nbsp
+ <a href = "www.github.com" target = "_self"> 
+         <img src = "index.png" alt = "instagram" width="40"/>&nbsp &nbsp
+<a href = "www.facebook.com" target = "_self"> 
+         <img src = "logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-18.png" alt = "instagram" width="40"/>
+ 
+ </div>
+ </div>
+ </div>
+ <div class="contactform" id="contact">
+ <h2 class="contactme"> Contact </h2>
+ <form>
+ <div class="form-group">
+ <label for="Name">Name</label>
+ <input class="form-control" type="text" name="Name" placeholder="Enter Name">
+ </div>
+
+ <div class="form-group">
+ <label for="exampleInputEmail1">Email</label>
+ <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+ </div>
+
+ <div class="form-group">
+ <label for="exampleInputEmail1">Mobile</label>
+ <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Mobile No">
+ </div>
+
+ <div class="form-group">
+ <label for="exampleFormControlTextarea1">Description</label>
+ <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+ </div>
+
+ <button type="submit" class="btn btn-primary">Submit</button>
+ </form>
+ </div>
+
+ <script>
+ function show(){
+ document.getElementById("contact").style.display = "block";
+ }
+ </script>
+</body>
+</html>
